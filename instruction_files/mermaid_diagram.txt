@@ -1,0 +1,87 @@
+flowchart TB
+    %% Styling to match CSE 111 Sample Submission
+    classDef entity fill:#cfe2f3,stroke:#2b579a,stroke-width:2px,color:#000,font-weight:bold;
+    classDef rel fill:#fff2cc,stroke:#d6b656,stroke-width:2px,color:#000;
+    classDef attr fill:#eeeeee,stroke:#555555,stroke-width:1px,color:#000;
+
+    %% ==================== ENTITIES (7) ====================
+    Teams["Teams"]:::entity
+    Employees["Employees"]:::entity
+    Games["Games"]:::entity
+    Features["Features"]:::entity
+    Tasks["Tasks"]:::entity
+    Releases["Releases"]:::entity
+    Platforms["Platforms"]:::entity
+
+    %% ==================== RELATIONSHIPS (6) ====================
+    DeptStaffing{"DepartmentStaffing"}:::rel
+    GamesEmployees{"GamesEmployees"}:::rel
+    HasFeatures{"HasFeatures"}:::rel
+    FeatureBreakdown{"FeatureBreakdown"}:::rel
+    VersionHistory{"VersionHistory"}:::rel
+    GamePlatforms{"GamePlatforms"}:::rel
+
+    %% ==================== CONNECTIONS & CARDINALITIES ====================
+    %% 1:N Relationships (Arrow points to the '1' side)
+    Employees --- DeptStaffing --> Teams
+    Features --- HasFeatures --> Games
+    Tasks --- FeatureBreakdown --> Features
+    Releases --- VersionHistory --> Games
+
+    %% M:N Relationships (Undirected lines on both sides)
+    Employees --- GamesEmployees --- Games
+    Games --- GamePlatforms --- Platforms
+
+    %% ==================== ATTRIBUTES ====================
+    %% Teams Attributes
+    t_id(["<u>team_id</u>"]):::attr --- Teams
+    t_name(["team_name"]):::attr --- Teams
+    t_dept(["department"]):::attr --- Teams
+
+    %% Employees Attributes
+    e_id(["<u>employee_id</u>"]):::attr --- Employees
+    e_name(["name"]):::attr --- Employees
+    e_email(["email"]):::attr --- Employees
+    e_role(["role"]):::attr --- Employees
+    e_hire(["hire_date"]):::attr --- Employees
+
+    %% GamesEmployees Relationship Attribute
+    ge_role(["role"]):::attr --- GamesEmployees
+
+    %% Games Attributes
+    g_id(["<u>game_id</u>"]):::attr --- Games
+    g_title(["title"]):::attr --- Games
+    g_genre(["genre"]):::attr --- Games
+    g_desc(["description"]):::attr --- Games
+    g_start(["start_date"]):::attr --- Games
+    g_status(["status"]):::attr --- Games
+
+    %% Features Attributes
+    f_id(["<u>feature_id</u>"]):::attr --- Features
+    f_name(["feature_name"]):::attr --- Features
+    f_desc(["description"]):::attr --- Features
+    f_status(["status"]):::attr --- Features
+    f_prio(["priority"]):::attr --- Features
+
+    %% Tasks Attributes
+    tk_id(["<u>task_id</u>"]):::attr --- Tasks
+    tk_name(["task_name"]):::attr --- Tasks
+    tk_desc(["description"]):::attr --- Tasks
+    tk_status(["status"]):::attr --- Tasks
+    tk_prio(["priority"]):::attr --- Tasks
+    tk_due(["due_date"]):::attr --- Tasks
+
+    %% Releases Attributes
+    r_id(["<u>release_id</u>"]):::attr --- Releases
+    r_ver(["version"]):::attr --- Releases
+    r_date(["release_date"]):::attr --- Releases
+    r_desc(["description"]):::attr --- Releases
+    r_status(["status"]):::attr --- Releases
+
+    %% Platforms Attributes
+    p_id(["<u>platform_id</u>"]):::attr --- Platforms
+    p_name(["name"]):::attr --- Platforms
+    p_mfg(["manufacturer"]):::attr --- Platforms
+
+    %% GamePlatforms Relationship Attribute
+    gp_date(["release_date"]):::attr --- GamePlatforms
