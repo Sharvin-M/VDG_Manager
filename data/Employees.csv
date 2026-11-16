@@ -1,0 +1,16 @@
+employee_id,name,email,role,hire_date,team_id
+101,Elena Vance,evance@vdgstudio.com,Lead Engine Architect,2021-03-15,1
+102,Marcus Sterling,msterling@vdgstudio.com,Senior Graphics Programmer,2022-06-10,1
+103,Priya Patel,ppatel@vdgstudio.com,AI Systems Programmer,2023-08-22,1
+104,Kenji Takahashi,ktakahashi@vdgstudio.com,Senior Technical Artist,2021-11-04,2
+105,Sofia Rodriguez,srodriguez@vdgstudio.com,Lead Environment Artist,2022-02-18,2
+106,Liam O'Connor,loconnor@vdgstudio.com,Creative Director,2020-09-01,3
+107,Amara Okafor,aokafor@vdgstudio.com,Senior Combat Designer,2023-01-20,3
+108,Hannah Abbott,habbott@vdgstudio.com,QA Lead,2022-09-12,4
+109,Mateo Silva,msilva@vdgstudio.com,Lead Audio Director,2021-07-19,5
+110,Rachel Chen,rchen@vdgstudio.com,Executive Producer,2020-05-11,6
+111,Devon Brooks,dbrooks@vdgstudio.com,Network Engineer,2024-01-15,1
+112,Chloe Bennett,cbennett@vdgstudio.com,3D Character Animator,2024-04-12,2
+113,Noah Kim,nkim@vdgstudio.com,Level Designer,2024-07-08,3
+114,Tyler Mercer,tmercer@vdgstudio.com,Automation QA Analyst,2025-02-03,4
+115,Zara Al-Mansoor,zalmansoor@vdgstudio.com,Sound Designer,2025-05-19,5

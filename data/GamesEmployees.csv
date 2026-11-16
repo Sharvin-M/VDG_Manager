@@ -1,0 +1,23 @@
+game_id,employee_id,role
+1,101,Lead Engine Architect
+1,102,Principal Shader Programmer
+1,104,Lead Technical Artist
+1,106,Creative Director
+1,107,Lead Combat Designer
+1,108,QA Lead
+2,101,Physics Optimization Consultant
+2,102,Ray-Tracing Lead
+2,105,Lead Environment Artist
+2,108,Performance QA Lead
+2,109,Adaptive Audio Director
+2,111,Multiplayer Netcode Lead
+3,103,Tactical AI Lead
+3,106,Systems Design Advisor
+3,109,Orchestral Score Director
+3,110,Executive Producer
+3,113,Campaign Level Designer
+4,103,Card Logic Programmer
+4,107,Deck Balance Designer
+4,112,Creature Animator
+5,110,Project Producer
+5,113,Puzzle Level Designer

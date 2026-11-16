@@ -1,0 +1,15 @@
+feature_id,game_id,feature_name,description,status,priority
+201,1,Elemental Spellweaving Combat,Real-time spell combination and elemental resonance engine,In Progress,5
+202,1,Dynamic Weather & Day-Night Cycle,"Volumetric clouds, storm physics, and NPC schedule shifts",In Progress,4
+203,1,Aerial Mount Navigation,Seamless sky-island flight and wind-current physics,Planned,3
+204,1,Guild Co-op Raid Matchmaking,Cross-region lobby and 4-player instance synchronization,Testing,5
+205,2,Anti-Gravity Hover Physics,Magnetic track repulsion and drift boost mechanics,Completed,5
+206,2,Ray-Traced Neon Reflections,Real-time wet pavement reflections and dynamic shaders,In Progress,4
+207,2,Synthwave Adaptive Soundtrack,Speed-reactive multi-stem electronic music mixer,Testing,3
+208,3,Procedural Sector Generator,Seed-based star system and anomaly generation,Completed,5
+209,3,Orbital Bombardment Tactical UI,3D holographic command overlay and firing solution HUD,Completed,4
+210,3,Modding Workshop Integration,Custom campaign scripting and Steam Workshop uploader,In Progress,2
+211,4,Synergy Card Combo Resolver,Deterministic stack resolution for chained relic and card effects,In Progress,5
+212,4,Procedural Catacomb Tile Map,Room graph generator with fog-of-war lighting,Planned,4
+213,5,Time-Rewind Ghost Recording,Frame-accurate state buffer for temporal clone puzzles,Planned,5
+214,5,Pixel Shader Lighting Pipeline,2D normal-mapped dynamic sprite illumination,Planned,3

@@ -1,0 +1,27 @@
+task_id,feature_id,task_name,description,status,priority,due_date
+301,201,Fire-Ice Vapor Reaction Math,Implement damage multiplier and steam AoE hitbox,Completed,5,2026-03-10
+302,201,Spell Combo Input Buffer,Create 120ms input queue for rapid elemental weaving,In Progress,4,2026-05-15
+303,201,Arcane Particle Shader Polish,Optimize GPU instancing for elemental projectiles,To Do,2,2026-06-20
+304,202,Volumetric Cloud Raymarching,Implement horizon cloud scattering pass,Completed,5,2026-02-28
+305,202,Lightning Strike Terrain Scorch,Dynamic decal spawning during thunderstorm events,In Review,3,2026-05-20
+306,203,Updraft Wind Tunnel Volumes,Trigger volumes applying vertical impulse to mounts,In Progress,4,2026-06-10
+307,203,Wing Stamina UI Gauge,Radial HUD indicator for glide exhaustion,To Do,2,2026-07-05
+308,204,Dedicated Server Handshake API,Token authentication and NAT punchthrough,Blocked,5,2026-04-30
+309,204,Raid Loot Roll Synchronizer,Server-authoritative RNG distribution table,In Progress,3,2026-05-25
+310,205,Mag-Lev Suspension Raycasts,Four-corner spring damper hover stabilization,Completed,5,2025-11-15
+311,205,Apex Drift Boost Telemetry,Slip-angle threshold detection for turbo charge,Completed,4,2025-12-10
+312,206,BVH Acceleration Structure,Optimize bounding volume hierarchy for city neon signs,Completed,5,2026-01-25
+313,206,Roughness Puddle Map Blending,Vertex-painted wet asphalt specular masks,In Review,4,2026-04-18
+314,206,DLSS Frame Generation Hook,Integrate temporal upscaling pipeline for 4K targets,Blocked,4,2026-05-01
+315,207,BPM Pitch-Shift DSP Filter,Modulate bassline tempo above 300 km/h,Completed,3,2026-02-14
+316,207,Tunnel Reverb Occlusion Zones,Acoustic convolution snapshots for subterranean tracks,In Progress,2,2026-04-22
+317,208,Voronoi Star-Lane Graph,Generate connected jump-gate topology,Completed,5,2024-08-10
+318,208,Nebula Hazard Spawner,Place ion storm and asteroid belt modifiers,Completed,3,2024-09-05
+319,209,Holographic Grid Projection,Render 3D tactical elevation contour lines,Completed,4,2024-10-12
+320,209,Trajectory Arc Preview Line,Bezier curve visualizer for orbital kinetic strikes,Completed,4,2024-11-01
+321,210,Lua Sandbox Security Validator,Restrict file-system I/O calls in user mod scripts,Completed,4,2026-03-01
+322,210,Workshop Thumbnail Uploader,Async HTTP multipart uploader for mod previews,In Review,2,2026-05-10
+323,211,Relic Trigger Priority Queue,Deterministic ordering for passive relic effects,In Progress,5,2026-06-15
+324,211,Card Burn Particle Dissolve,Custom ash-disintegration shader for exhausted cards,To Do,2,2026-07-20
+325,212,Boss Room Corridor Lock,Ensure minimum 4-room distance to floor guardian,Blocked,4,2026-06-30
+326,213,Ring Buffer Transform Logger,Record 60fps player position and animation state,To Do,5,2026-09-01
